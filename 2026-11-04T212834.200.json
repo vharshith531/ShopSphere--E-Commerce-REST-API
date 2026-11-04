@@ -1,0 +1,88 @@
+{
+  "totalProducts": 14,
+  "totalPages": 3,
+  "pageSize": 5,
+  "currentPage": 0,
+  "products": [
+    {
+      "category": "Smartphones",
+      "description": "Smartphone with advanced camera",
+      "id": 1,
+      "images": [
+        {
+          "image": "/product_images/apple-iphone-16.png"
+        }
+      ],
+      "name": "Apple iPhone 16",
+      "numOfReviews": 120,
+      "price": 799.0,
+      "rating": 4.5,
+      "seller": "Amazon",
+      "stock": 50
+    },
+    {
+      "category": "Smartphones",
+      "description": "Android smartphone with AMOLED display",
+      "id": 2,
+      "images": [
+        {
+          "image": "/product_images/samsung-galaxy-s25.png"
+        }
+      ],
+      "name": "Samsung Galaxy S25",
+      "numOfReviews": 95,
+      "price": 899.0,
+      "rating": 4.6,
+      "seller": "Samsung",
+      "stock": 40
+    },
+    {
+      "category": "Smartphones",
+      "description": "Flagship smartphone with fast charging",
+      "id": 3,
+      "images": [
+        {
+          "image": "/product_images/oneplus-13.png"
+        }
+      ],
+      "name": "OnePlus 13",
+      "numOfReviews": 80,
+      "price": 749.0,
+      "rating": 4.4,
+      "seller": "OnePlus",
+      "stock": 35
+    },
+    {
+      "category": "Headphones",
+      "description": "Wireless noise cancelling headphones",
+      "id": 4,
+      "images": [
+        {
+          "image": "/product_images/sony-wh-1000xm5.png"
+        }
+      ],
+      "name": "Sony WH-1000XM5",
+      "numOfReviews": 200,
+      "price": 349.0,
+      "rating": 4.7,
+      "seller": "Sony",
+      "stock": 25
+    },
+    {
+      "category": "Laptops",
+      "description": "Laptop with Apple M3 chip",
+      "id": 5,
+      "images": [
+        {
+          "image": "/product_images/macbook-air-m3.png"
+        }
+      ],
+      "name": "Apple MacBook Air M3",
+      "numOfReviews": 75,
+      "price": 1099.0,
+      "rating": 4.8,
+      "seller": "Apple",
+      "stock": 15
+    }
+  ]
+}

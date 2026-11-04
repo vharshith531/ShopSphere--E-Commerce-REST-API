@@ -1,0 +1,14 @@
+GET http://localhost:8080/product_images/apple-iphone-16.png
+
+<> 2026-11-04T212933.200.png
+
+###
+GET http://localhost:8080/api/products
+
+<> 2026-11-04T212834.200.json
+
+###
+GET http://localhost:8080/api/products
+
+###
+GET http://localhost:8080/product_images/apple-iphone-16.png

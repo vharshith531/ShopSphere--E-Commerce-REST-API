@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b0ed552-da93-4a8f-9000-0c26f6cc02af" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0057989203199729" />
+      <entry key="MS500" value="1.3674101732422974" />
+      <entry key="S2" value="2.0923925182460468" />
+      <entry key="S5" value="2.5356182100995133" />
+      <entry key="S10" value="2.745748312998188" />
+      <entry key="S30" value="3.0323634686738266" />
+      <entry key="S60" value="4.156016225640722" />
+      <entry key="M2" value="6.875866661579162" />
+      <entry key="M5" value="10.993976512966187" />
+      <entry key="M10" value="13.23152209965867" />
+      <entry key="M15" value="14.393107652433205" />
+      <entry key="M30" value="18.60129702769907" />
+      <entry key="H1" value="32.64123846215036" />
+      <entry key="H2" value="67.69164749210164" />
+      <entry key="H4" value="123.13680181156128" />
+      <entry key="D1" value="240.6768216347365" />
+      <entry key="W1" value="275.5143108759592" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.1875749212638208E-111" />
+      <entry key="S2" value="1.856382745156229E-28" />
+      <entry key="S5" value="8.143342751916448E-12" />
+      <entry key="S10" value="3.0923614587257835E-6" />
+      <entry key="S30" value="0.020462554985116475" />
+      <entry key="S60" value="0.19837203914134502" />
+      <entry key="M2" value="0.6266874944469512" />
+      <entry key="M5" value="1.2558183099992868" />
+      <entry key="M10" value="1.603980122201112" />
+      <entry key="M15" value="1.8456142089023395" />
+      <entry key="M30" value="2.878959069888102" />
+      <entry key="H1" value="6.079097323620497" />
+      <entry key="H2" value="15.458228166770033" />
+      <entry key="H4" value="33.82431727016031" />
+      <entry key="D1" value="79.30047524997654" />
+      <entry key="W1" value="93.3779046761176" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.007041019404928372" />
+      <entry key="MS500" value="0.38243222785508396" />
+      <entry key="S2" value="1.228974772166094" />
+      <entry key="S5" value="1.977072762503069" />
+      <entry key="S10" value="2.408865111952359" />
+      <entry key="S30" value="2.919469177602294" />
+      <entry key="S60" value="4.263652243367276" />
+      <entry key="M2" value="7.430251182903505" />
+      <entry key="M5" value="12.205136580357742" />
+      <entry key="M10" value="14.80882259982537" />
+      <entry key="M15" value="16.21896820752891" />
+      <entry key="M30" value="21.46605566591354" />
+      <entry key="H1" value="38.70588485485206" />
+      <entry key="H2" value="83.13229693404537" />
+      <entry key="H4" value="156.94306420190745" />
+      <entry key="D1" value="319.9707328698735" />
+      <entry key="W1" value="368.89112550260455" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LbSV7qMUvFU2id3UxOy7ny5VvY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.compose.yaml.app: Compose Deployment.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.http-requests-log | #1.executor": "Run",
+    "HTTP Request.http-requests-log | #3.executor": "Run",
+    "JUnit.ECartApplicationTests.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ECartApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/project/E-Cart/E-Cart",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="generated-requests | #1" value="STOPPED" />
+              <entry key="http-requests-log | #1" value="STOPPED" />
+              <entry key="http-requests-log | #3" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.compose.yaml.app: Compose Deployment">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-requests-log | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-requests-log | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" executionIdentifier="#3" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ECartApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="E-Cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harshith.E_Cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harshith.E_Cart" />
+      <option name="MAIN_CLASS_NAME" value="com.harshith.E_Cart.ECartApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="E-Cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harshith.E_Cart.ECartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.compose.yaml.app: Compose Deployment" />
+        <item itemvalue="JUnit.ECartApplicationTests" />
+        <item itemvalue="HTTP Request.http-requests-log | #3" />
+        <item itemvalue="HTTP Request.http-requests-log | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b0ed552-da93-4a8f-9000-0c26f6cc02af" name="Changes" comment="" />
+      <created>1793721294622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793721294622</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/harshith/E_Cart/Entity/Product.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

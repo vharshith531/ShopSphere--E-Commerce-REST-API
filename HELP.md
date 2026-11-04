@@ -1,0 +1,88 @@
+# Read Me First
+The following was discovered as part of building this project:
+
+* The original package name 'com.harshith.E-Cart' is invalid and this project uses 'com.harshith.E_Cart' instead.
+
+## Local environment and authentication
+
+The API uses stateless Spring Security JWT authentication. Copy `.env.example`
+to `.env` in the project root and replace the example values. The application
+loads `.env` at startup through `dotenv-java`; this file is ignored by Git.
+Variables already set in the process environment, IDE launch configuration, or
+command line take precedence over values in `.env`.
+
+On PowerShell, for example:
+
+```powershell
+$env:MYSQL_PASSWORD = "your-local-database-password"
+$rng = [System.Security.Cryptography.RandomNumberGenerator]::Create()
+$bytes = New-Object byte[] 48
+$rng.GetBytes($bytes)
+$env:JWT_SECRET = [Convert]::ToBase64String($bytes)
+$rng.Dispose()
+.\mvnw.cmd spring-boot:run
+```
+
+For local use, the following PowerShell commands generate a secret; save its
+value in `.env` as `JWT_SECRET` (do not print it or commit it):
+
+```powershell
+$rng = [System.Security.Cryptography.RandomNumberGenerator]::Create()
+$bytes = New-Object byte[] 48
+$rng.GetBytes($bytes)
+$secret = [Convert]::ToBase64String($bytes)
+$rng.Dispose()
+$envLines = Get-Content .env
+if ($envLines -match '^JWT_SECRET=') {
+    $envLines = $envLines -replace '^JWT_SECRET=.*$', "JWT_SECRET=$secret"
+} else {
+    $envLines += "JWT_SECRET=$secret"
+}
+Set-Content -Path .env -Value $envLines
+Remove-Variable secret, bytes
+```
+
+Generate and store a unique `JWT_SECRET` securely for each deployed environment.
+Do not commit real passwords or JWT secrets. Other settings, including
+`MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_DATABASE`, `MYSQL_USERNAME`, `SERVER_PORT`,
+and `JWT_EXPIRATION_SECONDS`, are listed in `.env.example`.
+
+Register with `POST /api/auth/register` using an email and a password of at
+least 12 characters, then log in at `POST /api/auth/login`. Both return a bearer
+access token. Send it as `Authorization: Bearer <accessToken>` to create an
+order, retrieve an order owned by the account, or submit a product review.
+Product GET endpoints and `/product_images/**` remain public.
+
+# Getting Started
+
+### Reference Documentation
+For further reference, please consider the following sections:
+
+* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.1.2/maven-plugin)
+* [Create an OCI image](https://docs.spring.io/spring-boot/4.1.2/maven-plugin/build-image.html)
+* [Spring Web](https://docs.spring.io/spring-boot/4.1.2/reference/web/servlet.html)
+* [Spring Data JPA](https://docs.spring.io/spring-boot/4.1.2/reference/data/sql.html#data.sql.jpa-and-spring-data)
+* [Spring Security](https://docs.spring.io/spring-boot/4.1.2/reference/web/spring-security.html)
+* [Validation](https://docs.spring.io/spring-boot/4.1.2/reference/io/validation.html)
+* [Spring Boot DevTools](https://docs.spring.io/spring-boot/4.1.2/reference/using/devtools.html)
+
+### Guides
+The following guides illustrate how to use some features concretely:
+
+* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+* [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
+* [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+* [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
+* [Validation](https://spring.io/guides/gs/validating-form-input/)
+
+### Maven Parent overrides
+
+Due to Maven's design, elements are inherited from the parent POM to the project POM.
+While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the parent.
+To prevent this, the project POM contains empty overrides for these elements.
+If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
